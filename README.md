@@ -5,6 +5,14 @@ This is the repository for the WinsorCAM project, which is a tool for interprept
 
 ## Usage
 
+### Aquiring the Project
+To acquire the project, you can clone the repository using Git:
+
+```sh
+git clone git@github.com:caseywall/Winsor-CAM.git
+cd Winsor-CAM
+```
+
 ### Setting Up the Environment
 
 To recreate the Conda environment used for this project, run:
@@ -14,7 +22,7 @@ conda env create -f environment.yml
 ```
 
 ### Running the example Jupyter Notebooks
-The notebooks are currently location at the root of this repository. To run the notebooks, you can use your preferred Jupyter Notebook environment. After setting up you environment (this found in the usage section above), you can select the created environment in Jupyter Notebook then begin running the notebooks. 
+The notebooks are currently location at the root of this repository. To run the notebooks, you can use your preferred Jupyter Notebook environment (if it is unclear how to do this, please refer to the [Jupyter documentation](https://docs.jupyter.org/en/latest/running.html)). After setting up your environment (this found in the usage section above), you can select the created environment in Jupyter Notebook then begin running the notebooks. 
 
 There are currently two notebooks:
 - `pascalvoc_example.ipynb`: This notebook demonstrates how to use the WinsorCAM algorithm on the Pascal VOC dataset. It includes code for loading the dataset and visualization. This models for this dataset can be shared on request if desired. The model used in this found in ./model_files and will automatically be loaded.
