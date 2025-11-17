@@ -15,6 +15,9 @@ cd Winsor-CAM
 
 ### Setting Up the Environment
 
+For ease of use, we recommend using Conda to manage the Python environment for this project.
+Download and install Conda from the [official website](https://www.anaconda.com/docs/getting-started/miniconda/install) if you haven't already.
+
 To recreate the Conda environment used for this project, run:
 
 ```sh
